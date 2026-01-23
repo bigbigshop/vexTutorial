@@ -1,24 +1,27 @@
-name: Deploy to GitHub Pages
+name: Deploy Docusaurus to GitHub Pages
 
 on:
   push:
-    branches: [main] # 监听 main 分支的推送
+    branches:
+      - main
+  workflow_dispatch:
 
 jobs:
-  deploy:
-    name: Deploy to GitHub Pages
+  build-deploy:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-      - uses: actions/setup-node@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
         with:
           node-version: 18
-          cache: 'npm'
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
+
       - name: Build website
         run: npm run build
 
@@ -26,4 +29,5 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./build # Docusaurus 默认的构建目录
+          publish_dir: ./build
+          cname: vex.ykyle.eu
