@@ -1,8 +1,7 @@
 ---
+title: 序：VEX V5
 sidebar_position: 1
 ---
-
-# VEX V5 簡介
 
 歡迎來到 **VEX V5 機器人** 學習平台。
 
