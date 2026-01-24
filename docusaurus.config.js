@@ -89,11 +89,7 @@ const config = {
           alt: 'VEX V5資料分享網 Logo',
           src: 'img/VEXcodeV5.jpg',
         },
-        items: [
-          {
-            type: 'localeDropdown',
-            position: 'right',
-          },
+        items: [          
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
@@ -102,9 +98,23 @@ const config = {
           },
           //{to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            label: 'PID模擬器',
+            to: '/pidSim',
+            position: 'left',
+          },
+          {
+            label: '版本',
             position: 'right',
+            items: [
+              {
+                label: 'v1.0',
+                to: '/pidSim',
+              },
+              {
+                label: 'v2.0',
+                to: '/intro',
+              },
+            ],
           },
         ],
       },
@@ -124,16 +134,12 @@ const config = {
             title: '社群',
             items: [
               {
-                label: 'Stack Overflow',
+                label: 'Instagram',
                 href: 'https://stackoverflow.com/questions/tagged/docusaurus',
               },
               {
-                label: 'Discord',
+                label: 'YouTube',
                 href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
               },
             ],
           },
