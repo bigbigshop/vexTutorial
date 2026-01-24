@@ -31,7 +31,7 @@ html[data-theme='dark'] .pid-wrapper {
   
   /* --- 關鍵修改：限制寬度與置中 --- */
   width: 100%;
-  max-width: 85%;  /* 限制最大寬度，讓介面變窄 */
+  max-width: 100%;  /* 限制最大寬度，讓介面變窄 */
   margin: 2rem auto; /* 上下留白 2rem，左右自動置中 (白邊) */
   padding: 1.5rem;   /* 內部留白稍微縮小一點 */
   
@@ -188,7 +188,7 @@ html[data-theme='dark'] .pid-range::-webkit-slider-runnable-track { background: 
   position: relative;
   /* 確保 Canvas 不會被拉得太高 */
   line-height: 0; 
-  width: 85%;
+  width:100%;
   margin: 2rem auto;
 }
 .pid-overlay {
@@ -399,7 +399,6 @@ const PIDContent = () => {
   };
 
   return (
-    <Layout>
     <div className="pid-wrapper">
       <style>{cssStyles}</style>
       
@@ -528,7 +527,6 @@ const PIDContent = () => {
         </div>
       </div>
     </div>
-    </Layout>
   );
 };
 

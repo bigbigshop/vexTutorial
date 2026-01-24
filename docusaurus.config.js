@@ -99,7 +99,7 @@ const config = {
           //{to: '/blog', label: 'Blog', position: 'left'},
           {
             label: 'PID模擬器',
-            to: '/pidSim',
+            to: '/pppp',
             position: 'left',
           },
           {
