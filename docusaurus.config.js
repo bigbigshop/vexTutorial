@@ -92,11 +92,22 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      sitemap: {
+        changefreq: 'weekly',
+        priority: 0.5,
+        ignorePatterns: ['/tags/**'],
+        filename: 'sitemap.xml',
+      },
       // 全域 SEO 描述與關鍵字
       metadata: [
-        {name: 'keywords', content: 'VEX V5, VEX Robotics, PID 控制, 機械人教學, 程式設計, C++, VEXcode Pro, PROS'},
-        {name: 'description', content: '專業的 VEX V5 機械人教學平台，提供從基礎到進階的程式設計、PID 控制理論及實戰模擬器。'},
+        {name: 'keywords', content: 'VEX V5, VEX Robotics, PID 控制, 機械人教學, 程式設計, C++, VEXcode Pro, PROS, Push Back 賽季, 里程計, Odometry'},
+        {name: 'description', content: '專業的 VEX V5 機械人教學平台，提供從基礎到進階的機械構造、程式設計、PID 控制理論及實戰模擬器。專為 2025-2026 Push Back 賽季設計。'},
         {name: 'robots', content: 'index, follow'},
+        {name: 'og:type', content: 'website'},
+        {name: 'og:site_name', content: 'VEX V5 資料分享網'},
+        {name: 'twitter:card', content: 'summary_large_image'},
+        {name: 'twitter:title', content: 'VEX V5 機械人全方位教學平台'},
+        {name: 'twitter:description', content: '深入淺出的 VEX V5 教程，涵蓋 PID、Odometry、Pure Pursuit 等進階演算法與賽季實戰策略。'},
       ],
       // Replace with your project's social card
       image: 'img/VEXcodeV5.jpg',
@@ -116,10 +127,47 @@ const config = {
             position: 'left',
             label: 'VEX V5',
           },
+          {
+            label: 'Push Back',
+            to: '/category/push-back',
+            position: 'left',
+          },
+          /*
+          {
+            label: '硬件',
+            to: '/category/hardware',
+            position: 'left',
+          },
+          {
+            label: '軟件',
+            to: '/category/software',
+            position: 'left',
+          },
+          {
+            label: '感應器',
+            to: '/category/sensors',
+            position: 'left',
+          },
+          {
+            label: 'CAD',
+            to: '/category/cad',
+            position: 'left',
+          },
+          {
+            label: '註冊新隊伍',
+            to: '/category/register',
+            position: 'left',
+          },
+          {
+            label: '世界賽名額',
+            to: 'https://kb.roboticseducation.org/hc/en-us/articles/5474199602071-Qualifying-Criteria-for-VEX-Robotics-Competition-Events#viqrc-and-v5rc-spot-allocations-SQp9C',
+            position: 'left',
+          },
+          */
           //{to: '/blog', label: 'Blog', position: 'left'},
           {
             label: 'PID模擬器',
-            to: '/pppp',
+            to: '/pid',
             position: 'left',
           },
           /*

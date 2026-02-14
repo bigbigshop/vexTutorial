@@ -1,5 +1,5 @@
 ---
-title: VEX V5 機器人全方位教程：從入門到競賽大師
+title: VEX V5 機器人簡介
 sidebar_position: 1
 description: 歡迎來到 VEX V5 機器人學習平台。本教程涵蓋機械構造、2025-2026 Push Back 賽季策略、C++ 編程及 PID、Odometry 等進階演算法，助你打造最強大的競賽機械人。
 keywords: [VEX V5 教程, 機械人比賽, VEX V5 編程, Push Back 賽季, V5 機器人組裝, 競賽策略, VEX 學習指南]

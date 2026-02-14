@@ -32,8 +32,8 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`${siteConfig.title} - Home`}
-      description="Resources, tutorials, and guides for VEX V5 Robotics competition and engineering.">
+      title={`首頁 - ${siteConfig.title}`}
+      description="專業 VEX V5 機械人教學：涵蓋 2025-2026 Push Back 賽季策略、PID 控制、里程計與進階自動導航演算法。">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

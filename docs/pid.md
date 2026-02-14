@@ -1,6 +1,6 @@
 ---
 sidebar_position: 99
-title: PID 模擬器：互動式控制理論學習工具
+title: PID 模擬器
 description: 透過互動式 PID 模擬器，實時調整 P、I、D 參數並觀察曲線變化。幫助 VEX 選手直觀理解比例、積分、微分控制原理，優化機械人精準度。
 keywords: [PID 模擬器, PID Simulator, 控制理論, VEX 參數調整, PID 教學, 互動式模擬, 機械人控制]
 ---
