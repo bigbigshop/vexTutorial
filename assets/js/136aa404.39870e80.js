@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkvex_tutorial=globalThis.webpackChunkvex_tutorial||[]).push([[5571],{8350(a){a.exports=JSON.parse('{"name":"docusaurus-plugin-search-local","id":"default"}')}}]);
