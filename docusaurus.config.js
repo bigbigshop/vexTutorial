@@ -179,6 +179,19 @@ const config = {
         darkTheme: prismThemes.dracula,
       },
     }),
+  // 添加本地搜尋插件
+  plugins: [
+    [
+      'docusaurus-plugin-search-local', // 社區插件名稱
+      {
+        hashed: true, // 啟用內容哈希，用於緩存
+        indexDocs: true, // 明確指定索引文檔
+        indexPages: true, // 明確指定索引頁面
+        docsRouteBasePath: '/', // 文檔基礎路徑
+        // 移除不支援的 highlightSearchTerms
+      },
+    ],
+  ],
 };
 
 export default config;
