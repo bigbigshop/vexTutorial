@@ -1,7 +1,8 @@
 {
-  "label": "第六章：進階編程",
+  "label": "第六章：進階演算法與自動導航",
   "position": 7,
   "link": {
-    "type": "generated-index"
+    "type": "generated-index",
+    "description": "深入探討 VEX V5 的進階編程演算法。本章涵蓋 PID 控制理論、直線與轉向修正、里程計 (Odometry) 座標定位、Pure Pursuit 路徑追蹤以及 Boomerang Controller，助你打造具備自動駕駛能力的頂尖機械人。"
   }
 }

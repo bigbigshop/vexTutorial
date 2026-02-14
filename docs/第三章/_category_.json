@@ -1,7 +1,8 @@
 {
-  "label": "第三章：底架",
+  "label": "第三章：底盤構造與防禦",
   "position": 4,
   "link": {
-    "type": "generated-index"
+    "type": "generated-index",
+    "description": "深入探討 VEX V5 機械人底盤設計。本章涵蓋坦克底盤、X-Drive 與 Mecanum 的物理分析，並詳細講解輪胎配置策略、雙重支撐結構以及動力分配，助你打造最強悍的賽季底盤。"
   }
 }

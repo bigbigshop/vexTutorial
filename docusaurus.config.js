@@ -92,6 +92,12 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      // 全域 SEO 描述與關鍵字
+      metadata: [
+        {name: 'keywords', content: 'VEX V5, VEX Robotics, PID 控制, 機械人教學, 程式設計, C++, VEXcode Pro, PROS'},
+        {name: 'description', content: '專業的 VEX V5 機械人教學平台，提供從基礎到進階的程式設計、PID 控制理論及實戰模擬器。'},
+        {name: 'robots', content: 'index, follow'},
+      ],
       // Replace with your project's social card
       image: 'img/VEXcodeV5.jpg',
       colorMode: {
@@ -116,6 +122,7 @@ const config = {
             to: '/pppp',
             position: 'left',
           },
+          /*
           {
             label: '版本',
             position: 'right',
@@ -130,6 +137,7 @@ const config = {
               },
             ],
           },
+          */
         ],
       },
       footer: {

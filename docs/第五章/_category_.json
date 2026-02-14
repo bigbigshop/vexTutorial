@@ -2,6 +2,7 @@
   "label": "第五章：編程",
   "position": 6,
   "link": {
-    "type": "generated-index"
+    "type": "generated-index",
+    "description": "探索 VEX V5 機械人編程的核心，從基礎馬達控制到進階感應器應用（IMU、視覺、距離感應器），並學習如何撰寫競賽自動程式與狀態機邏輯。"
   }
 }

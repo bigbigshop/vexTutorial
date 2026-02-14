@@ -2,6 +2,7 @@
   "label": "第一章：前言",
   "position": 2,
   "link": {
-    "type": "generated-index"
+    "type": "generated-index",
+    "description": "歡迎進入 VEX V5 的世界。本章將介紹 2025-2026 Push Back 賽季規則、基礎機械構造（底盤、軸、材料）以及安全作業規範，為你的機械人之路打下堅實基礎。"
   }
 }

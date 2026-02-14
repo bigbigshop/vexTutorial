@@ -1,7 +1,8 @@
 {
-  "label": "第四章：操控",
+  "label": "第四章：進階機構與資源管理",
   "position": 5,
   "link": {
-    "type": "generated-index"
+    "type": "generated-index",
+    "description": "探索 VEX V5 機械人的核心機構設計。本章深入解析高效滾筒採集器 (Roller Intake)、內部輸送系統、氣動系統 (Pneumatics) 的實戰應用，以及如何利用被動結構在功率限制下極大化機械人性能。"
   }
 }
