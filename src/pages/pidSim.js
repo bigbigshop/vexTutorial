@@ -407,7 +407,7 @@ const PIDContent = () => {
         <div className="pid-title">
             <h2>VEX V5RC PID 原理示範</h2>
             <div className="pid-subtitle">Proportional (比例) - Integral (積分) - Derivative (微分)</div>
-            <div className="pid-subtitle">Author: Kyle</div>
+            <div className="pid-subtitle">Author: You</div>
         </div>
         <div className="pid-controls">
             <button 
