@@ -170,6 +170,11 @@ const config = {
             to: '/pid',
             position: 'left',
           },
+          {
+            label: 'moveToPose模擬器',
+            to: '/moveToPose',
+            position: 'left',
+          },
           /*
           {
             label: '版本',
